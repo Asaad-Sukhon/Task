@@ -1,5 +1,5 @@
-# Task
-Part 1:
+#Task
+##Part 1:
 	1-"pvcreate /dev/sdb
 	   vgcreate -s 16M  LVM /dev/sdb
 	   lvcreate -n lvm1 LVM  -l 50 /dev/sdb
@@ -9,7 +9,7 @@ Part 1:
 
 
 
-Part 2:
+##Part 2:
 	1- "useradd -u 601 -s /sbin/nologin -p redhat user1"
 	2- "usermod -a -G TrainingGroup user1"
 	3- "useradd user2
